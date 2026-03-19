@@ -159,8 +159,6 @@ bigdir: bigdir link(bd, x00) failed
 
 ## 我怎麼用 GDB 把 `remap` 找出來
 
-這次我用的是非常典型的 kernel debug 流程：
-
 1. 用 `make qemu-gdb` 啟動 xv6
 2. 用 `gdb-multiarch -q kernel/kernel` 載入 symbols
 3. 用 `target remote :26000` 接到 QEMU
