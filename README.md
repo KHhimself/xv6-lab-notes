@@ -6,6 +6,7 @@
 ## 內容
 
 - [`pgtbl` lab 筆記](./docs/pgtbl.md)
+- [`lazy` lab 筆記](./docs/lazy.md)
 
 ## 這份 repo 想呈現的重點
 
@@ -28,16 +29,17 @@
 
 ## 這次作業摘要
 
-本次紀錄的是 `pgtbl` lab，重點包含兩部分：
+目前已整理的 lab 包含：
 
-1. 為每個 process 建立自己的 kernel page table
-2. 簡化 `copyin` / `copyinstr`，讓 kernel 能直接透過 process 的 kernel page table 存取 user pointer
+1. `pgtbl`
+2. `lazy`
 
 ## 最終測試結果
 
 ```text
 make grade
-Score: 66/66
+Score: 66/66   # pgtbl
+Score: 119/119 # lazy
 ```
 
 ## Repo 結構
@@ -46,6 +48,7 @@ Score: 66/66
 xv6-lab-notes/
 ├── README.md
 ├── docs/
+│   ├── lazy.md
 │   └── pgtbl.md
 └── assets/
 ```
