@@ -7,6 +7,7 @@
 
 - [`pgtbl` lab 筆記](./docs/pgtbl.md)
 - [`lazy` lab 筆記](./docs/lazy.md)
+- [`thread` lab 筆記](./docs/thread.md)
 
 ## 這份 repo 想呈現的重點
 
@@ -33,6 +34,7 @@
 
 1. `pgtbl`
 2. `lazy`
+3. `thread`
 
 ## 最終測試結果
 
@@ -40,6 +42,7 @@
 make grade
 Score: 66/66   # pgtbl
 Score: 119/119 # lazy
+Score: 54/60   # thread (core tests pass; current checkout is missing answers-thread.txt/time.txt)
 ```
 
 ## Repo 結構
@@ -49,7 +52,8 @@ xv6-lab-notes/
 ├── README.md
 ├── docs/
 │   ├── lazy.md
-│   └── pgtbl.md
+│   ├── pgtbl.md
+│   └── thread.md
 └── assets/
 ```
 
